@@ -1,11 +1,6 @@
 import React from 'react';
 
-const Tab = props => {
-  /* Using your props, determine if the `tab` prop matches the `selectedTab` prop,
-      if they match, the className should be: 'tab active-tab',
-      if it is not it should just be 'tab'*/
-
-  const { tab, selectTabHandler, selectedTab } = props;
+const Tab = ({tab, selectTabHandler, selectedTab}) => {
 
   return (
     <div
